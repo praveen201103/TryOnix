@@ -13,80 +13,97 @@ if (!isVercel && !existsSync(dbDir)) mkdirSync(dbDir, { recursive: true });
 
 const dbPath = path.join(dbDir, 'tryonix.db');
 
-const SQL = await initSqlJs();
+// Lazy-initialized database (avoids top-level await issues on Vercel)
+let db = null;
+let dbReady = null;
 
-let db;
-if (existsSync(dbPath)) {
-  const buffer = readFileSync(dbPath);
-  db = new SQL.Database(buffer);
-} else {
-  db = new SQL.Database();
+async function initDb() {
+  if (db) return db;
+  if (dbReady) return dbReady;
+
+  dbReady = (async () => {
+    const SQL = await initSqlJs();
+
+    if (existsSync(dbPath)) {
+      const buffer = readFileSync(dbPath);
+      db = new SQL.Database(buffer);
+    } else {
+      db = new SQL.Database();
+    }
+
+    // Create tables
+    db.run(`
+      CREATE TABLE IF NOT EXISTS users (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        email TEXT UNIQUE NOT NULL,
+        password_hash TEXT NOT NULL,
+        name TEXT NOT NULL,
+        gender TEXT DEFAULT 'unisex',
+        body_type TEXT,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+
+    db.run(`
+      CREATE TABLE IF NOT EXISTS avatars (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        image_path TEXT NOT NULL,
+        is_active INTEGER DEFAULT 1,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+
+    db.run(`
+      CREATE TABLE IF NOT EXISTS saved_outfits (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        outfit_id TEXT NOT NULL,
+        tryon_result_url TEXT,
+        notes TEXT,
+        saved_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(user_id, outfit_id)
+      );
+    `);
+
+    db.run(`
+      CREATE TABLE IF NOT EXISTS preferences (
+        user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+        default_occasion TEXT,
+        default_budget TEXT,
+        default_body_type TEXT,
+        default_gender TEXT,
+        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+
+    // Save initial state
+    saveDb();
+
+    return db;
+  })();
+
+  return dbReady;
 }
-
-// Create tables
-db.run(`
-  CREATE TABLE IF NOT EXISTS users (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    email TEXT UNIQUE NOT NULL,
-    password_hash TEXT NOT NULL,
-    name TEXT NOT NULL,
-    gender TEXT DEFAULT 'unisex',
-    body_type TEXT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-  );
-`);
-
-db.run(`
-  CREATE TABLE IF NOT EXISTS avatars (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-    image_path TEXT NOT NULL,
-    is_active INTEGER DEFAULT 1,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-  );
-`);
-
-db.run(`
-  CREATE TABLE IF NOT EXISTS saved_outfits (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-    outfit_id TEXT NOT NULL,
-    tryon_result_url TEXT,
-    notes TEXT,
-    saved_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    UNIQUE(user_id, outfit_id)
-  );
-`);
-
-db.run(`
-  CREATE TABLE IF NOT EXISTS preferences (
-    user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
-    default_occasion TEXT,
-    default_budget TEXT,
-    default_body_type TEXT,
-    default_gender TEXT,
-    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-  );
-`);
 
 // Save DB to disk
 function saveDb() {
-  const data = db.export();
-  const buffer = Buffer.from(data);
-  writeFileSync(dbPath, buffer);
+  try {
+    if (!db) return;
+    const data = db.export();
+    const buffer = Buffer.from(data);
+    writeFileSync(dbPath, buffer);
+  } catch (e) {
+    // On Vercel, /tmp writes may sometimes fail — don't crash
+    console.warn('DB save warning:', e.message);
+  }
 }
 
-// Auto-save on changes
-const originalRun = db.run.bind(db);
-db.run = function (...args) {
-  const result = originalRun(...args);
-  saveDb();
-  return result;
-};
-
 // Wrapper to mimic better-sqlite3's prepare().get() / .all() / .run() API
+// All methods are now async since DB initialization is lazy
 export const dbHelper = {
-  get(sql, params = []) {
+  async get(sql, params = []) {
+    await initDb();
     const stmt = db.prepare(sql);
     if (params.length) stmt.bind(params);
     if (stmt.step()) {
@@ -101,7 +118,8 @@ export const dbHelper = {
     return undefined;
   },
 
-  all(sql, params = []) {
+  async all(sql, params = []) {
+    await initDb();
     const stmt = db.prepare(sql);
     if (params.length) stmt.bind(params);
     const results = [];
@@ -116,16 +134,15 @@ export const dbHelper = {
     return results;
   },
 
-  run(sql, params = []) {
+  async run(sql, params = []) {
+    await initDb();
     db.run(sql, params);
     const changes = db.getRowsModified();
     // Get last insert rowid
-    const lastId = dbHelper.get('SELECT last_insert_rowid() as id');
-    return { changes, lastInsertRowid: lastId ? lastId.id : 0 };
+    const lastIdRow = await dbHelper.get('SELECT last_insert_rowid() as id');
+    saveDb();
+    return { changes, lastInsertRowid: lastIdRow ? lastIdRow.id : 0 };
   },
 };
-
-// Save initial state
-saveDb();
 
 export default dbHelper;

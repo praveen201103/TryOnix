@@ -35,14 +35,14 @@ const upload = multer({
 const router = Router();
 
 // POST /api/avatar
-router.post('/', authenticate, upload.single('avatar'), (req, res) => {
+router.post('/', authenticate, upload.single('avatar'), async (req, res) => {
   try {
     if (!req.file) return res.status(400).json({ error: 'No image file provided' });
 
-    db.run('UPDATE avatars SET is_active = 0 WHERE user_id = ?', [req.user.id]);
+    await db.run('UPDATE avatars SET is_active = 0 WHERE user_id = ?', [req.user.id]);
 
     const imagePath = `/uploads/avatars/${req.file.filename}`;
-    db.run('INSERT INTO avatars (user_id, image_path, is_active) VALUES (?, ?, 1)', [req.user.id, imagePath]);
+    await db.run('INSERT INTO avatars (user_id, image_path, is_active) VALUES (?, ?, 1)', [req.user.id, imagePath]);
 
     res.status(201).json({ avatar: imagePath });
   } catch (err) {
@@ -52,9 +52,9 @@ router.post('/', authenticate, upload.single('avatar'), (req, res) => {
 });
 
 // GET /api/avatar
-router.get('/', authenticate, (req, res) => {
+router.get('/', authenticate, async (req, res) => {
   try {
-    const avatar = db.get('SELECT * FROM avatars WHERE user_id = ? AND is_active = 1 ORDER BY created_at DESC LIMIT 1', [req.user.id]);
+    const avatar = await db.get('SELECT * FROM avatars WHERE user_id = ? AND is_active = 1 ORDER BY created_at DESC LIMIT 1', [req.user.id]);
     res.json({ avatar: avatar ? avatar.image_path : null });
   } catch (err) {
     console.error('Get avatar error:', err);
@@ -63,9 +63,9 @@ router.get('/', authenticate, (req, res) => {
 });
 
 // GET /api/avatar/all
-router.get('/all', authenticate, (req, res) => {
+router.get('/all', authenticate, async (req, res) => {
   try {
-    const avatars = db.all('SELECT * FROM avatars WHERE user_id = ? ORDER BY created_at DESC', [req.user.id]);
+    const avatars = await db.all('SELECT * FROM avatars WHERE user_id = ? ORDER BY created_at DESC', [req.user.id]);
     res.json(avatars);
   } catch (err) {
     console.error('List avatars error:', err);
@@ -74,10 +74,10 @@ router.get('/all', authenticate, (req, res) => {
 });
 
 // PUT /api/avatar/:id/activate
-router.put('/:id/activate', authenticate, (req, res) => {
+router.put('/:id/activate', authenticate, async (req, res) => {
   try {
-    db.run('UPDATE avatars SET is_active = 0 WHERE user_id = ?', [req.user.id]);
-    const result = db.run('UPDATE avatars SET is_active = 1 WHERE id = ? AND user_id = ?', [parseInt(req.params.id), req.user.id]);
+    await db.run('UPDATE avatars SET is_active = 0 WHERE user_id = ?', [req.user.id]);
+    const result = await db.run('UPDATE avatars SET is_active = 1 WHERE id = ? AND user_id = ?', [parseInt(req.params.id), req.user.id]);
     if (result.changes === 0) return res.status(404).json({ error: 'Avatar not found' });
     res.json({ message: 'Avatar activated' });
   } catch (err) {
