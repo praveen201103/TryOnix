@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Try-On — TryOnix</title>
+  <meta name="description" content="Try on outfits virtually using AI. Upload your photo and see how clothes look on you." />
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/pages.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+</head>
+<body>
+  <div class="bg-mesh"></div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="nav-logo">TryOnix</a>
+      <div class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/pages/recommend.html">Get Styled</a>
+        <a href="/pages/tryon.html" class="active">Virtual Try-On</a>
+        <a href="/pages/dashboard.html" id="navDashboard" style="display:none;">Dashboard</a>
+      </div>
+      <div class="nav-auth" id="navAuth">
+        <div id="navGuest">
+          <a href="/pages/login.html" class="btn btn-ghost">Log In</a>
+          <a href="/pages/signup.html" class="btn btn-primary btn-sm">Sign Up</a>
+        </div>
+        <div id="navUser" style="display:none;" class="flex gap-md">
+          <span class="nav-user-name" id="navUserName"></span>
+          <button class="btn btn-ghost btn-sm" id="navLogout">Logout</button>
+        </div>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="toast-container" id="toastContainer"></div>
+
+  <div class="tryon-container">
+    <div class="text-center" style="margin-bottom: var(--space-2xl);">
+      <h1>Virtual <span class="text-gradient">Try-On</span> Studio</h1>
+      <p class="text-secondary" style="margin-top: var(--space-sm);">Upload your photo and a garment to see how it looks on you</p>
+    </div>
+
+    <!-- Upload Grid -->
+    <div class="tryon-grid" id="uploadSection">
+      <!-- Your Photo -->
+      <div>
+        <h3 style="margin-bottom: var(--space-md);">📸 Your Photo</h3>
+        <div class="upload-zone" id="personZone">
+          <div class="upload-zone-icon">🧍</div>
+          <p class="upload-zone-text">
+            <strong>Click or drag</strong> your full-body photo here<br/>
+            <small style="color: var(--text-tertiary);">JPG, PNG — clear, front-facing photo works best</small>
+          </p>
+          <input type="file" accept="image/*" id="personInput" style="display:none;" />
+        </div>
+      </div>
+
+      <!-- Garment -->
+      <div>
+        <h3 style="margin-bottom: var(--space-md);">👗 Garment Image</h3>
+        <div class="upload-zone" id="garmentZone">
+          <div class="upload-zone-icon">👔</div>
+          <p class="upload-zone-text">
+            <strong>Click or drag</strong> the garment image here<br/>
+            <small style="color: var(--text-tertiary);">Clean product photo on white background works best</small>
+          </p>
+          <input type="file" accept="image/*" id="garmentInput" style="display:none;" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Category Selector -->
+    <div class="text-center" style="margin-bottom: var(--space-xl);">
+      <label class="form-label" style="margin-bottom: var(--space-sm); display:block;">Garment Type</label>
+      <div class="flex flex-center gap-sm" style="flex-wrap:wrap;">
+        <button class="filter-chip active" data-cat="auto" id="catAuto">🤖 Auto-Detect</button>
+        <button class="filter-chip" data-cat="tops" id="catTops">👕 Tops</button>
+        <button class="filter-chip" data-cat="bottoms" id="catBottoms">👖 Bottoms</button>
+        <button class="filter-chip" data-cat="one-pieces" id="catDresses">👗 Dresses</button>
+      </div>
+    </div>
+
+    <!-- Try-On Button -->
+    <div class="text-center" style="margin-bottom: var(--space-2xl);">
+      <button class="btn btn-primary btn-lg" id="tryOnBtn" disabled>
+        🪄 Generate Try-On
+      </button>
+    </div>
+
+    <!-- Processing State -->
+    <div class="tryon-processing" id="processingState" style="display:none;">
+      <div class="spinner"></div>
+      <h3 style="margin-bottom: var(--space-sm);">AI is working its magic...</h3>
+      <p class="text-secondary">This usually takes 15-30 seconds</p>
+      <div class="progress-bar" style="max-width:400px; margin: var(--space-lg) auto 0;">
+        <div class="progress-bar-fill" id="progressFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Result State -->
+    <div class="tryon-result" id="resultState" style="display:none;">
+      <h3 style="margin-bottom: var(--space-lg);">✨ Here's Your Look!</h3>
+      <img id="resultImage" alt="Virtual try-on result" />
+      <div class="flex flex-center gap-md" style="margin-top: var(--space-xl); flex-wrap:wrap;">
+        <button class="btn btn-primary" id="downloadResult">💾 Download</button>
+        <button class="btn btn-secondary" id="saveResult">♡ Save to Wardrobe</button>
+        <button class="btn btn-ghost" id="tryAnother">🔄 Try Another</button>
+      </div>
+    </div>
+
+    <!-- Error State -->
+    <div class="text-center" id="errorState" style="display:none;">
+      <div style="font-size:3rem; margin-bottom: var(--space-md);">😕</div>
+      <h3 style="margin-bottom: var(--space-sm);">Something went wrong</h3>
+      <p class="text-secondary" id="errorMessage"></p>
+      <button class="btn btn-primary" id="retryBtn" style="margin-top: var(--space-lg);">Try Again</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <span class="nav-logo">TryOnix</span>
+        <span class="footer-text">© 2026 TryOnix. AI-Powered Fashion.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+  <script type="module" src="/js/tryon.js"></script>
+</body>
+</html>

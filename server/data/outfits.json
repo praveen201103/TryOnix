@@ -1,0 +1,4417 @@
+[
+  {
+    "id": "item_1",
+    "name": "Grey Summer Floral Dress (V1)",
+    "description": "A stylish grey summer floral dress perfect for wedding occasions.",
+    "price": 4870,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/06e993/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_2",
+    "name": "Grey Streetwear Cargo Set (V2)",
+    "description": "A stylish grey streetwear cargo set perfect for wedding occasions.",
+    "price": 3154,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "date-night",
+      "workout"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ce6720/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_3",
+    "name": "Neon Evening Gown (V3)",
+    "description": "A stylish neon evening gown perfect for wedding occasions.",
+    "price": 4872,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/506069/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_4",
+    "name": "White Athleisure Matching Set (V4)",
+    "description": "A stylish white athleisure matching set perfect for casual occasions.",
+    "price": 3743,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "tall",
+      "plus-size",
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/09712f/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_5",
+    "name": "Neon Tuxedo (V5)",
+    "description": "A stylish neon tuxedo perfect for casual occasions.",
+    "price": 934,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "casual",
+      "workout",
+      "office"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/96551b/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_6",
+    "name": "Burgundy Essential White Tee (V6)",
+    "description": "A stylish burgundy essential white tee perfect for office occasions.",
+    "price": 332,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "beach"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy",
+      "average",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b6f395/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_7",
+    "name": "Black Graphic Print Hoodie (V7)",
+    "description": "A stylish black graphic print hoodie perfect for party occasions.",
+    "price": 921,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "party"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/dbe88e/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_8",
+    "name": "Black Silk Blouse (V8)",
+    "description": "A stylish black silk blouse perfect for date-night occasions.",
+    "price": 3533,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "casual",
+      "office"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "tall"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c53918/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_9",
+    "name": "Grey Denim Jacket (V9)",
+    "description": "A stylish grey denim jacket perfect for casual occasions.",
+    "price": 711,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "beach",
+      "party"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/392ad5/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_10",
+    "name": "Navy Chunky Knit Sweater (V10)",
+    "description": "A stylish navy chunky knit sweater perfect for date-night occasions.",
+    "price": 870,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/54fa54/ffffff?text=Top%5CnNavy",
+    "category": "Top"
+  },
+  {
+    "id": "item_11",
+    "name": "Olive Polo T-Shirt (V11)",
+    "description": "A stylish olive polo t-shirt perfect for wedding occasions.",
+    "price": 310,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/7f1483/ffffff?text=Top%5CnOlive",
+    "category": "Top"
+  },
+  {
+    "id": "item_12",
+    "name": "Pastel Classic Blue Jeans (V12)",
+    "description": "A stylish pastel classic blue jeans perfect for wedding occasions.",
+    "price": 5286,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "all"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d532f9/ffffff?text=Jeans%5CnPastel",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_13",
+    "name": "Grey Tailored Trousers (V13)",
+    "description": "A stylish grey tailored trousers perfect for wedding occasions.",
+    "price": 926,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "wedding",
+      "workout"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall",
+      "athletic",
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/7fa034/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_14",
+    "name": "Beige Pleated Skirt (V14)",
+    "description": "A stylish beige pleated skirt perfect for wedding occasions.",
+    "price": 2893,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/0dd5cc/ffffff?text=Bottom%5CnBeige",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_15",
+    "name": "Burgundy Workout Leggings (V15)",
+    "description": "A stylish burgundy workout leggings perfect for workout occasions.",
+    "price": 1382,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "workout",
+      "date-night",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "all",
+      "slim",
+      "petite",
+      "athletic"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b2e65d/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_16",
+    "name": "Olive Cargo Shorts (V16)",
+    "description": "A stylish olive cargo shorts perfect for wedding occasions.",
+    "price": 2075,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "tall",
+      "plus-size",
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1b166a/ffffff?text=Bottom%5CnOlive",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_17",
+    "name": "White Vintage Baseball Cap (V17)",
+    "description": "A stylish white vintage baseball cap perfect for wedding occasions.",
+    "price": 442,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ae6b22/ffffff?text=Cap%5CnWhite",
+    "category": "Cap"
+  },
+  {
+    "id": "item_18",
+    "name": "Pastel Classic Aviator Sunglasses (V18)",
+    "description": "A stylish pastel classic aviator sunglasses perfect for workout occasions.",
+    "price": 1874,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "petite",
+      "slim",
+      "average"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e426ea/ffffff?text=Accessory%5CnPastel",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_19",
+    "name": "Olive Minimalist Leather Watch (V19)",
+    "description": "A stylish olive minimalist leather watch perfect for office occasions.",
+    "price": 4809,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "office"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "petite"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/816ef1/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_20",
+    "name": "Pastel Silver Pendant Necklace (V20)",
+    "description": "A stylish pastel silver pendant necklace perfect for date-night occasions.",
+    "price": 314,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "office",
+      "party"
+    ],
+    "bodyTypes": [
+      "all",
+      "average"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/21e622/ffffff?text=Accessory%5CnPastel",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_21",
+    "name": "Pastel Canvas Tote Bag (V21)",
+    "description": "A stylish pastel canvas tote bag perfect for casual occasions.",
+    "price": 495,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f0f3e8/ffffff?text=Accessory%5CnPastel",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_22",
+    "name": "White Classic Two-Piece Suit (V22)",
+    "description": "A stylish white classic two-piece suit perfect for office occasions.",
+    "price": 3220,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "beach"
+    ],
+    "bodyTypes": [
+      "slim",
+      "tall",
+      "plus-size",
+      "average"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/40abd2/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_23",
+    "name": "Pastel Summer Floral Dress (V23)",
+    "description": "A stylish pastel summer floral dress perfect for casual occasions.",
+    "price": 2049,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "petite",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/50c109/ffffff?text=Outfit%5CnPastel",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_24",
+    "name": "Beige Streetwear Cargo Set (V24)",
+    "description": "A stylish beige streetwear cargo set perfect for wedding occasions.",
+    "price": 3597,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3712c5/ffffff?text=Outfit%5CnBeige",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_25",
+    "name": "Burgundy Evening Gown (V25)",
+    "description": "A stylish burgundy evening gown perfect for interview occasions.",
+    "price": 7735,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "workout",
+      "party"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "athletic",
+      "all",
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1c293c/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_26",
+    "name": "Navy Athleisure Matching Set (V26)",
+    "description": "A stylish navy athleisure matching set perfect for casual occasions.",
+    "price": 372,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "athletic",
+      "average"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/6089e0/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_27",
+    "name": "Neon Tuxedo (V27)",
+    "description": "A stylish neon tuxedo perfect for party occasions.",
+    "price": 748,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "party",
+      "beach",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fe3778/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_28",
+    "name": "Burgundy Essential White Tee (V28)",
+    "description": "A stylish burgundy essential white tee perfect for party occasions.",
+    "price": 2036,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "interview",
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3c27b6/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_29",
+    "name": "Pastel Graphic Print Hoodie (V29)",
+    "description": "A stylish pastel graphic print hoodie perfect for party occasions.",
+    "price": 991,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "party"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy",
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/058ac6/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_30",
+    "name": "Black Silk Blouse (V30)",
+    "description": "A stylish black silk blouse perfect for wedding occasions.",
+    "price": 394,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a763ad/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_31",
+    "name": "Grey Denim Jacket (V31)",
+    "description": "A stylish grey denim jacket perfect for date-night occasions.",
+    "price": 2017,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "date-night",
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall",
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3960e2/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_32",
+    "name": "Beige Chunky Knit Sweater (V32)",
+    "description": "A stylish beige chunky knit sweater perfect for interview occasions.",
+    "price": 3395,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "all",
+      "plus-size",
+      "average"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/42a150/ffffff?text=Top%5CnBeige",
+    "category": "Top"
+  },
+  {
+    "id": "item_33",
+    "name": "Grey Polo T-Shirt (V33)",
+    "description": "A stylish grey polo t-shirt perfect for party occasions.",
+    "price": 2846,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "party",
+      "date-night",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "tall",
+      "petite",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/bbd1c9/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_34",
+    "name": "Black Classic Blue Jeans (V34)",
+    "description": "A stylish black classic blue jeans perfect for party occasions.",
+    "price": 302,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "party"
+    ],
+    "bodyTypes": [
+      "slim",
+      "tall",
+      "petite"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/8fc734/ffffff?text=Jeans%5CnBlack",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_35",
+    "name": "Neon Tailored Trousers (V35)",
+    "description": "A stylish neon tailored trousers perfect for workout occasions.",
+    "price": 3192,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b660aa/ffffff?text=Bottom%5CnNeon",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_36",
+    "name": "Olive Pleated Skirt (V36)",
+    "description": "A stylish olive pleated skirt perfect for beach occasions.",
+    "price": 1446,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c46b10/ffffff?text=Bottom%5CnOlive",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_37",
+    "name": "Olive Workout Leggings (V37)",
+    "description": "A stylish olive workout leggings perfect for office occasions.",
+    "price": 379,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "office",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "tall",
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/6d93ca/ffffff?text=Bottom%5CnOlive",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_38",
+    "name": "Olive Cargo Shorts (V38)",
+    "description": "A stylish olive cargo shorts perfect for office occasions.",
+    "price": 511,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "average"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1b2e87/ffffff?text=Bottom%5CnOlive",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_39",
+    "name": "Beige Vintage Baseball Cap (V39)",
+    "description": "A stylish beige vintage baseball cap perfect for office occasions.",
+    "price": 575,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d30d4b/ffffff?text=Cap%5CnBeige",
+    "category": "Cap"
+  },
+  {
+    "id": "item_40",
+    "name": "Olive Classic Aviator Sunglasses (V40)",
+    "description": "A stylish olive classic aviator sunglasses perfect for wedding occasions.",
+    "price": 3149,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "interview"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/226ebf/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_41",
+    "name": "Olive Minimalist Leather Watch (V41)",
+    "description": "A stylish olive minimalist leather watch perfect for beach occasions.",
+    "price": 6279,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "average",
+      "slim",
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/611218/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_42",
+    "name": "White Silver Pendant Necklace (V42)",
+    "description": "A stylish white silver pendant necklace perfect for wedding occasions.",
+    "price": 1376,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "slim",
+      "average",
+      "plus-size",
+      "tall"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d179cf/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_43",
+    "name": "White Canvas Tote Bag (V43)",
+    "description": "A stylish white canvas tote bag perfect for date-night occasions.",
+    "price": 649,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "wedding",
+      "office"
+    ],
+    "bodyTypes": [
+      "average",
+      "all"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a037e4/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_44",
+    "name": "Beige Classic Two-Piece Suit (V44)",
+    "description": "A stylish beige classic two-piece suit perfect for beach occasions.",
+    "price": 6500,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/255841/ffffff?text=Outfit%5CnBeige",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_45",
+    "name": "Pastel Summer Floral Dress (V45)",
+    "description": "A stylish pastel summer floral dress perfect for casual occasions.",
+    "price": 6019,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "date-night",
+      "interview"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/50d926/ffffff?text=Outfit%5CnPastel",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_46",
+    "name": "Burgundy Streetwear Cargo Set (V46)",
+    "description": "A stylish burgundy streetwear cargo set perfect for beach occasions.",
+    "price": 538,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "beach",
+      "casual",
+      "office"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "curvy",
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/654058/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_47",
+    "name": "Grey Evening Gown (V47)",
+    "description": "A stylish grey evening gown perfect for wedding occasions.",
+    "price": 8554,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "beach"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/931038/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_48",
+    "name": "Neon Athleisure Matching Set (V48)",
+    "description": "A stylish neon athleisure matching set perfect for casual occasions.",
+    "price": 2608,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "wedding",
+      "workout"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "athletic"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/802f3d/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_49",
+    "name": "Grey Tuxedo (V49)",
+    "description": "A stylish grey tuxedo perfect for workout occasions.",
+    "price": 2167,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d5fbf6/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_50",
+    "name": "Pastel Essential White Tee (V50)",
+    "description": "A stylish pastel essential white tee perfect for office occasions.",
+    "price": 694,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "date-night",
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1f6eec/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_51",
+    "name": "Black Graphic Print Hoodie (V51)",
+    "description": "A stylish black graphic print hoodie perfect for office occasions.",
+    "price": 8115,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "interview",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite",
+      "average",
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1f645f/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_52",
+    "name": "Pastel Silk Blouse (V52)",
+    "description": "A stylish pastel silk blouse perfect for casual occasions.",
+    "price": 8033,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "party",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall",
+      "curvy",
+      "plus-size",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/217beb/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_53",
+    "name": "Beige Denim Jacket (V53)",
+    "description": "A stylish beige denim jacket perfect for casual occasions.",
+    "price": 316,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/948492/ffffff?text=Top%5CnBeige",
+    "category": "Top"
+  },
+  {
+    "id": "item_54",
+    "name": "Black Chunky Knit Sweater (V54)",
+    "description": "A stylish black chunky knit sweater perfect for casual occasions.",
+    "price": 2949,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/dde2a5/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_55",
+    "name": "White Polo T-Shirt (V55)",
+    "description": "A stylish white polo t-shirt perfect for workout occasions.",
+    "price": 747,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f17663/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_56",
+    "name": "Burgundy Classic Blue Jeans (V56)",
+    "description": "A stylish burgundy classic blue jeans perfect for beach occasions.",
+    "price": 3000,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "beach",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "average",
+      "plus-size"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/38f274/ffffff?text=Jeans%5CnBurgundy",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_57",
+    "name": "Black Tailored Trousers (V57)",
+    "description": "A stylish black tailored trousers perfect for beach occasions.",
+    "price": 434,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "beach",
+      "office",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "all",
+      "plus-size",
+      "tall"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5f1908/ffffff?text=Bottom%5CnBlack",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_58",
+    "name": "Pastel Pleated Skirt (V58)",
+    "description": "A stylish pastel pleated skirt perfect for workout occasions.",
+    "price": 733,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "workout",
+      "interview"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e24778/ffffff?text=Bottom%5CnPastel",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_59",
+    "name": "White Workout Leggings (V59)",
+    "description": "A stylish white workout leggings perfect for beach occasions.",
+    "price": 2855,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "athletic"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/df546b/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_60",
+    "name": "Grey Cargo Shorts (V60)",
+    "description": "A stylish grey cargo shorts perfect for party occasions.",
+    "price": 337,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "party"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3777d7/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_61",
+    "name": "Pastel Vintage Baseball Cap (V61)",
+    "description": "A stylish pastel vintage baseball cap perfect for beach occasions.",
+    "price": 465,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "slim",
+      "tall",
+      "average"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3e85cc/ffffff?text=Cap%5CnPastel",
+    "category": "Cap"
+  },
+  {
+    "id": "item_62",
+    "name": "White Classic Aviator Sunglasses (V62)",
+    "description": "A stylish white classic aviator sunglasses perfect for wedding occasions.",
+    "price": 6376,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "interview",
+      "workout"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "all",
+      "petite"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/148978/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_63",
+    "name": "Grey Minimalist Leather Watch (V63)",
+    "description": "A stylish grey minimalist leather watch perfect for office occasions.",
+    "price": 3812,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "party"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9dd5c4/ffffff?text=Accessory%5CnGrey",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_64",
+    "name": "Burgundy Silver Pendant Necklace (V64)",
+    "description": "A stylish burgundy silver pendant necklace perfect for casual occasions.",
+    "price": 403,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "beach",
+      "office"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "curvy",
+      "athletic"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9eacac/ffffff?text=Accessory%5CnBurgundy",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_65",
+    "name": "Beige Canvas Tote Bag (V65)",
+    "description": "A stylish beige canvas tote bag perfect for interview occasions.",
+    "price": 6769,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "average",
+      "slim",
+      "all",
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5b42f7/ffffff?text=Accessory%5CnBeige",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_66",
+    "name": "Burgundy Classic Two-Piece Suit (V66)",
+    "description": "A stylish burgundy classic two-piece suit perfect for casual occasions.",
+    "price": 3083,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "casual",
+      "beach",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d3b2a7/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_67",
+    "name": "Navy Summer Floral Dress (V67)",
+    "description": "A stylish navy summer floral dress perfect for date-night occasions.",
+    "price": 7122,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "office"
+    ],
+    "bodyTypes": [
+      "all",
+      "slim",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/4d53de/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_68",
+    "name": "Grey Streetwear Cargo Set (V68)",
+    "description": "A stylish grey streetwear cargo set perfect for wedding occasions.",
+    "price": 342,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "tall",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/dcc0e4/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_69",
+    "name": "Burgundy Evening Gown (V69)",
+    "description": "A stylish burgundy evening gown perfect for interview occasions.",
+    "price": 925,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1c5976/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_70",
+    "name": "Neon Athleisure Matching Set (V70)",
+    "description": "A stylish neon athleisure matching set perfect for workout occasions.",
+    "price": 4722,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "wedding",
+      "office"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/60d363/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_71",
+    "name": "Olive Tuxedo (V71)",
+    "description": "A stylish olive tuxedo perfect for workout occasions.",
+    "price": 2957,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "petite",
+      "athletic",
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/795d70/ffffff?text=Outfit%5CnOlive",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_72",
+    "name": "Grey Essential White Tee (V72)",
+    "description": "A stylish grey essential white tee perfect for casual occasions.",
+    "price": 840,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "all",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c50f50/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_73",
+    "name": "Beige Graphic Print Hoodie (V73)",
+    "description": "A stylish beige graphic print hoodie perfect for wedding occasions.",
+    "price": 1047,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "office"
+    ],
+    "bodyTypes": [
+      "all",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5a72af/ffffff?text=Top%5CnBeige",
+    "category": "Top"
+  },
+  {
+    "id": "item_74",
+    "name": "Pastel Silk Blouse (V74)",
+    "description": "A stylish pastel silk blouse perfect for wedding occasions.",
+    "price": 453,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "wedding"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "tall",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/219308/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_75",
+    "name": "Black Denim Jacket (V75)",
+    "description": "A stylish black denim jacket perfect for party occasions.",
+    "price": 2173,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "casual",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/593b51/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_76",
+    "name": "Grey Chunky Knit Sweater (V76)",
+    "description": "A stylish grey chunky knit sweater perfect for interview occasions.",
+    "price": 475,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "office",
+      "workout"
+    ],
+    "bodyTypes": [
+      "tall",
+      "petite",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fd6958/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_77",
+    "name": "Neon Polo T-Shirt (V77)",
+    "description": "A stylish neon polo t-shirt perfect for date-night occasions.",
+    "price": 719,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "date-night",
+      "workout"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "average"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/24d372/ffffff?text=Top%5CnNeon",
+    "category": "Top"
+  },
+  {
+    "id": "item_78",
+    "name": "Navy Classic Blue Jeans (V78)",
+    "description": "A stylish navy classic blue jeans perfect for interview occasions.",
+    "price": 2663,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "interview",
+      "office",
+      "workout"
+    ],
+    "bodyTypes": [
+      "tall",
+      "all",
+      "average",
+      "athletic"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/386513/ffffff?text=Jeans%5CnNavy",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_79",
+    "name": "Burgundy Tailored Trousers (V79)",
+    "description": "A stylish burgundy tailored trousers perfect for casual occasions.",
+    "price": 3617,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/96a570/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_80",
+    "name": "White Pleated Skirt (V80)",
+    "description": "A stylish white pleated skirt perfect for party occasions.",
+    "price": 2123,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "party",
+      "workout"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/724374/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_81",
+    "name": "Neon Workout Leggings (V81)",
+    "description": "A stylish neon workout leggings perfect for office occasions.",
+    "price": 1864,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "office"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall",
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/72eb90/ffffff?text=Bottom%5CnNeon",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_82",
+    "name": "Beige Cargo Shorts (V82)",
+    "description": "A stylish beige cargo shorts perfect for workout occasions.",
+    "price": 1224,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "interview"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/929b87/ffffff?text=Bottom%5CnBeige",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_83",
+    "name": "Navy Vintage Baseball Cap (V83)",
+    "description": "A stylish navy vintage baseball cap perfect for casual occasions.",
+    "price": 504,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "party",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "plus-size",
+      "all",
+      "tall"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e17a9b/ffffff?text=Cap%5CnNavy",
+    "category": "Cap"
+  },
+  {
+    "id": "item_84",
+    "name": "White Classic Aviator Sunglasses (V84)",
+    "description": "A stylish white classic aviator sunglasses perfect for workout occasions.",
+    "price": 437,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "average",
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/14a195/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_85",
+    "name": "Olive Minimalist Leather Watch (V85)",
+    "description": "A stylish olive minimalist leather watch perfect for casual occasions.",
+    "price": 4365,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "tall",
+      "average",
+      "athletic",
+      "all"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/614252/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_86",
+    "name": "Black Silver Pendant Necklace (V86)",
+    "description": "A stylish black silver pendant necklace perfect for party occasions.",
+    "price": 435,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "party",
+      "workout"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "petite",
+      "tall"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a7956e/ffffff?text=Accessory%5CnBlack",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_87",
+    "name": "Navy Canvas Tote Bag (V87)",
+    "description": "A stylish navy canvas tote bag perfect for wedding occasions.",
+    "price": 6919,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "office"
+    ],
+    "bodyTypes": [
+      "average",
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/6d24ad/ffffff?text=Accessory%5CnNavy",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_88",
+    "name": "Olive Classic Two-Piece Suit (V88)",
+    "description": "A stylish olive classic two-piece suit perfect for casual occasions.",
+    "price": 370,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "casual",
+      "office"
+    ],
+    "bodyTypes": [
+      "average",
+      "athletic"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/4ea742/ffffff?text=Outfit%5CnOlive",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_89",
+    "name": "Navy Summer Floral Dress (V89)",
+    "description": "A stylish navy summer floral dress perfect for casual occasions.",
+    "price": 4021,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "office"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/4d6bfb/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_90",
+    "name": "Burgundy Streetwear Cargo Set (V90)",
+    "description": "A stylish burgundy streetwear cargo set perfect for beach occasions.",
+    "price": 475,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/45fc9b/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_91",
+    "name": "Burgundy Evening Gown (V91)",
+    "description": "A stylish burgundy evening gown perfect for wedding occasions.",
+    "price": 487,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "office",
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "slim",
+      "petite",
+      "average"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fcfc9c/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_92",
+    "name": "White Athleisure Matching Set (V92)",
+    "description": "A stylish white athleisure matching set perfect for party occasions.",
+    "price": 1593,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "party"
+    ],
+    "bodyTypes": [
+      "petite",
+      "plus-size",
+      "tall",
+      "athletic"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/73bd61/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_93",
+    "name": "Neon Tuxedo (V93)",
+    "description": "A stylish neon tuxedo perfect for date-night occasions.",
+    "price": 4839,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/de0bd9/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_94",
+    "name": "Neon Essential White Tee (V94)",
+    "description": "A stylish neon essential white tee perfect for casual occasions.",
+    "price": 821,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "interview"
+    ],
+    "bodyTypes": [
+      "slim",
+      "average",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3c9e3c/ffffff?text=Top%5CnNeon",
+    "category": "Top"
+  },
+  {
+    "id": "item_95",
+    "name": "Black Graphic Print Hoodie (V95)",
+    "description": "A stylish black graphic print hoodie perfect for casual occasions.",
+    "price": 786,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1f9499/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_96",
+    "name": "Pastel Silk Blouse (V96)",
+    "description": "A stylish pastel silk blouse perfect for beach occasions.",
+    "price": 830,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/21ab25/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_97",
+    "name": "Burgundy Denim Jacket (V97)",
+    "description": "A stylish burgundy denim jacket perfect for beach occasions.",
+    "price": 995,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy",
+      "slim",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c2d85a/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_98",
+    "name": "Grey Chunky Knit Sweater (V98)",
+    "description": "A stylish grey chunky knit sweater perfect for office occasions.",
+    "price": 3285,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "office"
+    ],
+    "bodyTypes": [
+      "tall",
+      "all",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fd8175/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_99",
+    "name": "Pastel Polo T-Shirt (V99)",
+    "description": "A stylish pastel polo t-shirt perfect for office occasions.",
+    "price": 445,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "casual",
+      "workout"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a1b454/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_100",
+    "name": "Navy Classic Blue Jeans (V100)",
+    "description": "A stylish navy classic blue jeans perfect for casual occasions.",
+    "price": 1792,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "all",
+      "plus-size"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c8011f/ffffff?text=Jeans%5CnNavy",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_101",
+    "name": "Olive Tailored Trousers (V101)",
+    "description": "A stylish olive tailored trousers perfect for casual occasions.",
+    "price": 989,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/2dcb73/ffffff?text=Bottom%5CnOlive",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_102",
+    "name": "Grey Pleated Skirt (V102)",
+    "description": "A stylish grey pleated skirt perfect for casual occasions.",
+    "price": 447,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall",
+      "plus-size",
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/dcbc68/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_103",
+    "name": "White Workout Leggings (V103)",
+    "description": "A stylish white workout leggings perfect for wedding occasions.",
+    "price": 1734,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/156d7c/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_104",
+    "name": "Grey Cargo Shorts (V104)",
+    "description": "A stylish grey cargo shorts perfect for beach occasions.",
+    "price": 474,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "beach",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "plus-size",
+      "tall",
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/af80ec/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_105",
+    "name": "Neon Vintage Baseball Cap (V105)",
+    "description": "A stylish neon vintage baseball cap perfect for casual occasions.",
+    "price": 437,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "all",
+      "petite",
+      "average"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/db9266/ffffff?text=Cap%5CnNeon",
+    "category": "Cap"
+  },
+  {
+    "id": "item_106",
+    "name": "Neon Classic Aviator Sunglasses (V106)",
+    "description": "A stylish neon classic aviator sunglasses perfect for office occasions.",
+    "price": 412,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall",
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c38304/ffffff?text=Accessory%5CnNeon",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_107",
+    "name": "White Minimalist Leather Watch (V107)",
+    "description": "A stylish white minimalist leather watch perfect for beach occasions.",
+    "price": 433,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "average"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b1c551/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_108",
+    "name": "Olive Silver Pendant Necklace (V108)",
+    "description": "A stylish olive silver pendant necklace perfect for interview occasions.",
+    "price": 1112,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "workout",
+      "office"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy",
+      "slim",
+      "athletic"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/83724b/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_109",
+    "name": "Pastel Canvas Tote Bag (V109)",
+    "description": "A stylish pastel canvas tote bag perfect for workout occasions.",
+    "price": 653,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d20abe/ffffff?text=Accessory%5CnPastel",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_110",
+    "name": "White Classic Two-Piece Suit (V110)",
+    "description": "A stylish white classic two-piece suit perfect for workout occasions.",
+    "price": 398,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ee5698/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_111",
+    "name": "Navy Summer Floral Dress (V111)",
+    "description": "A stylish navy summer floral dress perfect for beach occasions.",
+    "price": 588,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "beach",
+      "office"
+    ],
+    "bodyTypes": [
+      "petite",
+      "plus-size",
+      "average",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/dd3a45/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_112",
+    "name": "Beige Streetwear Cargo Set (V112)",
+    "description": "A stylish beige streetwear cargo set perfect for office occasions.",
+    "price": 388,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/69523f/ffffff?text=Outfit%5CnBeige",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_113",
+    "name": "White Evening Gown (V113)",
+    "description": "A stylish white evening gown perfect for date-night occasions.",
+    "price": 414,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "wedding",
+      "party"
+    ],
+    "bodyTypes": [
+      "all",
+      "plus-size",
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9d649c/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_114",
+    "name": "Neon Athleisure Matching Set (V114)",
+    "description": "A stylish neon athleisure matching set perfect for interview occasions.",
+    "price": 2527,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "interview",
+      "date-night",
+      "casual"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b69fa0/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_115",
+    "name": "Burgundy Tuxedo (V115)",
+    "description": "A stylish burgundy tuxedo perfect for office occasions.",
+    "price": 5317,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "party",
+      "workout"
+    ],
+    "bodyTypes": [
+      "average",
+      "petite",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f6c2ca/ffffff?text=Outfit%5CnBurgundy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_116",
+    "name": "Navy Essential White Tee (V116)",
+    "description": "A stylish navy essential white tee perfect for interview occasions.",
+    "price": 324,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "interview",
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "average",
+      "petite",
+      "curvy",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b6ebe0/ffffff?text=Top%5CnNavy",
+    "category": "Top"
+  },
+  {
+    "id": "item_117",
+    "name": "Grey Graphic Print Hoodie (V117)",
+    "description": "A stylish grey graphic print hoodie perfect for workout occasions.",
+    "price": 381,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "party",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fb820c/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_118",
+    "name": "Black Silk Blouse (V118)",
+    "description": "A stylish black silk blouse perfect for workout occasions.",
+    "price": 9185,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim",
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c5569a/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_119",
+    "name": "Burgundy Denim Jacket (V119)",
+    "description": "A stylish burgundy denim jacket perfect for workout occasions.",
+    "price": 4462,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "tall",
+      "all",
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/42e472/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_120",
+    "name": "White Chunky Knit Sweater (V120)",
+    "description": "A stylish white chunky knit sweater perfect for casual occasions.",
+    "price": 973,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "workout",
+      "office"
+    ],
+    "bodyTypes": [
+      "tall",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1343d9/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_121",
+    "name": "White Polo T-Shirt (V121)",
+    "description": "A stylish white polo t-shirt perfect for date-night occasions.",
+    "price": 1131,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "date-night",
+      "office"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9f4615/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_122",
+    "name": "Pastel Classic Blue Jeans (V122)",
+    "description": "A stylish pastel classic blue jeans perfect for interview occasions.",
+    "price": 2762,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "interview",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "slim",
+      "plus-size"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a504f3/ffffff?text=Jeans%5CnPastel",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_123",
+    "name": "Grey Tailored Trousers (V123)",
+    "description": "A stylish grey tailored trousers perfect for beach occasions.",
+    "price": 2994,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "slim",
+      "plus-size",
+      "average",
+      "tall"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f1ea62/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_124",
+    "name": "Neon Pleated Skirt (V124)",
+    "description": "A stylish neon pleated skirt perfect for beach occasions.",
+    "price": 391,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "beach",
+      "party",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/53e7f1/ffffff?text=Bottom%5CnNeon",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_125",
+    "name": "Burgundy Workout Leggings (V125)",
+    "description": "A stylish burgundy workout leggings perfect for workout occasions.",
+    "price": 1617,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "workout",
+      "casual",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "all",
+      "curvy",
+      "petite"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a8e605/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_126",
+    "name": "White Cargo Shorts (V126)",
+    "description": "A stylish white cargo shorts perfect for office occasions.",
+    "price": 469,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "office"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e57800/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_127",
+    "name": "Pastel Vintage Baseball Cap (V127)",
+    "description": "A stylish pastel vintage baseball cap perfect for office occasions.",
+    "price": 966,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "office"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "tall",
+      "petite",
+      "slim"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9844b5/ffffff?text=Cap%5CnPastel",
+    "category": "Cap"
+  },
+  {
+    "id": "item_128",
+    "name": "Pastel Classic Aviator Sunglasses (V128)",
+    "description": "A stylish pastel classic aviator sunglasses perfect for workout occasions.",
+    "price": 930,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c0938e/ffffff?text=Accessory%5CnPastel",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_129",
+    "name": "Neon Minimalist Leather Watch (V129)",
+    "description": "A stylish neon minimalist leather watch perfect for beach occasions.",
+    "price": 7410,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "beach",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/241539/ffffff?text=Accessory%5CnNeon",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_130",
+    "name": "Neon Silver Pendant Necklace (V130)",
+    "description": "A stylish neon silver pendant necklace perfect for wedding occasions.",
+    "price": 8440,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "beach",
+      "casual"
+    ],
+    "bodyTypes": [
+      "tall",
+      "curvy",
+      "petite"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/287e43/ffffff?text=Accessory%5CnNeon",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_131",
+    "name": "Beige Canvas Tote Bag (V131)",
+    "description": "A stylish beige canvas tote bag perfect for wedding occasions.",
+    "price": 4928,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "wedding",
+      "beach"
+    ],
+    "bodyTypes": [
+      "tall",
+      "petite"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a708b2/ffffff?text=Accessory%5CnBeige",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_132",
+    "name": "Olive Classic Two-Piece Suit (V132)",
+    "description": "A stylish olive classic two-piece suit perfect for date-night occasions.",
+    "price": 7704,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "tall",
+      "petite",
+      "average"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/fc1fda/ffffff?text=Outfit%5CnOlive",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_133",
+    "name": "Navy Summer Floral Dress (V133)",
+    "description": "A stylish navy summer floral dress perfect for interview occasions.",
+    "price": 2663,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5d1bcb/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_134",
+    "name": "Pastel Streetwear Cargo Set (V134)",
+    "description": "A stylish pastel streetwear cargo set perfect for beach occasions.",
+    "price": 648,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b44fb9/ffffff?text=Outfit%5CnPastel",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_135",
+    "name": "Pastel Evening Gown (V135)",
+    "description": "A stylish pastel evening gown perfect for beach occasions.",
+    "price": 2546,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "all",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/cda64c/ffffff?text=Outfit%5CnPastel",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_136",
+    "name": "Pastel Athleisure Matching Set (V136)",
+    "description": "A stylish pastel athleisure matching set perfect for casual occasions.",
+    "price": 2717,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "beach",
+      "party"
+    ],
+    "bodyTypes": [
+      "petite",
+      "athletic"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d9c97b/ffffff?text=Outfit%5CnPastel",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_137",
+    "name": "Navy Tuxedo (V137)",
+    "description": "A stylish navy tuxedo perfect for wedding occasions.",
+    "price": 396,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "wedding",
+      "date-night",
+      "beach"
+    ],
+    "bodyTypes": [
+      "all",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/76beb7/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_138",
+    "name": "White Essential White Tee (V138)",
+    "description": "A stylish white essential white tee perfect for workout occasions.",
+    "price": 386,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "office",
+      "beach"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/299d77/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_139",
+    "name": "White Graphic Print Hoodie (V139)",
+    "description": "A stylish white graphic print hoodie perfect for casual occasions.",
+    "price": 1976,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "tall",
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3165c0/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_140",
+    "name": "Pastel Silk Blouse (V140)",
+    "description": "A stylish pastel silk blouse perfect for workout occasions.",
+    "price": 1438,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "workout",
+      "party",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall",
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e92d27/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_141",
+    "name": "Grey Denim Jacket (V141)",
+    "description": "A stylish grey denim jacket perfect for wedding occasions.",
+    "price": 2594,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "beach",
+      "office"
+    ],
+    "bodyTypes": [
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/238089/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_142",
+    "name": "Pastel Chunky Knit Sweater (V142)",
+    "description": "A stylish pastel chunky knit sweater perfect for date-night occasions.",
+    "price": 418,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/e37bc4/ffffff?text=Top%5CnPastel",
+    "category": "Top"
+  },
+  {
+    "id": "item_143",
+    "name": "White Polo T-Shirt (V143)",
+    "description": "A stylish white polo t-shirt perfect for workout occasions.",
+    "price": 403,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "wedding",
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1f279b/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_144",
+    "name": "Beige Classic Blue Jeans (V144)",
+    "description": "A stylish beige classic blue jeans perfect for party occasions.",
+    "price": 443,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "workout",
+      "office"
+    ],
+    "bodyTypes": [
+      "all",
+      "petite",
+      "curvy"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9a111e/ffffff?text=Jeans%5CnBeige",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_145",
+    "name": "White Tailored Trousers (V145)",
+    "description": "A stylish white tailored trousers perfect for casual occasions.",
+    "price": 757,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "slim"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/7b1523/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_146",
+    "name": "Burgundy Pleated Skirt (V146)",
+    "description": "A stylish burgundy pleated skirt perfect for office occasions.",
+    "price": 452,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "office",
+      "casual"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b394c3/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_147",
+    "name": "White Workout Leggings (V147)",
+    "description": "A stylish white workout leggings perfect for interview occasions.",
+    "price": 863,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "beach"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/152e88/ffffff?text=Bottom%5CnWhite",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_148",
+    "name": "Navy Cargo Shorts (V148)",
+    "description": "A stylish navy cargo shorts perfect for date-night occasions.",
+    "price": 680,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f84ef6/ffffff?text=Bottom%5CnNavy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_149",
+    "name": "White Vintage Baseball Cap (V149)",
+    "description": "A stylish white vintage baseball cap perfect for party occasions.",
+    "price": 317,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "interview"
+    ],
+    "bodyTypes": [
+      "average",
+      "tall",
+      "plus-size",
+      "slim"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/6873f5/ffffff?text=Cap%5CnWhite",
+    "category": "Cap"
+  },
+  {
+    "id": "item_150",
+    "name": "Olive Classic Aviator Sunglasses (V150)",
+    "description": "A stylish olive classic aviator sunglasses perfect for date-night occasions.",
+    "price": 7247,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "date-night",
+      "office",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "average",
+      "petite",
+      "curvy",
+      "slim"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c8a5cf/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_151",
+    "name": "Beige Minimalist Leather Watch (V151)",
+    "description": "A stylish beige minimalist leather watch perfect for workout occasions.",
+    "price": 2164,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "date-night",
+      "office"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c00e88/ffffff?text=Accessory%5CnBeige",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_152",
+    "name": "Grey Silver Pendant Necklace (V152)",
+    "description": "A stylish grey silver pendant necklace perfect for interview occasions.",
+    "price": 440,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "casual",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/71dde4/ffffff?text=Accessory%5CnGrey",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_153",
+    "name": "Olive Canvas Tote Bag (V153)",
+    "description": "A stylish olive canvas tote bag perfect for interview occasions.",
+    "price": 389,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "date-night",
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "tall",
+      "slim"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5e3402/ffffff?text=Accessory%5CnOlive",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_154",
+    "name": "Black Classic Two-Piece Suit (V154)",
+    "description": "A stylish black classic two-piece suit perfect for casual occasions.",
+    "price": 440,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all",
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d8a6dc/ffffff?text=Outfit%5CnBlack",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_155",
+    "name": "Black Summer Floral Dress (V155)",
+    "description": "A stylish black summer floral dress perfect for workout occasions.",
+    "price": 3592,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "workout",
+      "office",
+      "casual"
+    ],
+    "bodyTypes": [
+      "average",
+      "athletic",
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/26b69b/ffffff?text=Outfit%5CnBlack",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_156",
+    "name": "White Streetwear Cargo Set (V156)",
+    "description": "A stylish white streetwear cargo set perfect for casual occasions.",
+    "price": 4253,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "workout"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/847ef9/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_157",
+    "name": "White Evening Gown (V157)",
+    "description": "A stylish white evening gown perfect for date-night occasions.",
+    "price": 3081,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall",
+      "slim",
+      "curvy",
+      "athletic"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/9d25a8/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_158",
+    "name": "White Athleisure Matching Set (V158)",
+    "description": "A stylish white athleisure matching set perfect for date-night occasions.",
+    "price": 2995,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "date-night",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/09faa0/ffffff?text=Outfit%5CnWhite",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_159",
+    "name": "Navy Tuxedo (V159)",
+    "description": "A stylish navy tuxedo perfect for beach occasions.",
+    "price": 398,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "average",
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f69e3d/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_160",
+    "name": "Grey Essential White Tee (V160)",
+    "description": "A stylish grey essential white tee perfect for workout occasions.",
+    "price": 309,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "beach"
+    ],
+    "bodyTypes": [
+      "petite",
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c97b55/ffffff?text=Top%5CnGrey",
+    "category": "Top"
+  },
+  {
+    "id": "item_161",
+    "name": "Neon Graphic Print Hoodie (V161)",
+    "description": "A stylish neon graphic print hoodie perfect for party occasions.",
+    "price": 323,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "office"
+    ],
+    "bodyTypes": [
+      "all",
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ce13eb/ffffff?text=Top%5CnNeon",
+    "category": "Top"
+  },
+  {
+    "id": "item_162",
+    "name": "Beige Silk Blouse (V162)",
+    "description": "A stylish beige silk blouse perfect for casual occasions.",
+    "price": 3759,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "casual",
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/94cb3b/ffffff?text=Top%5CnBeige",
+    "category": "Top"
+  },
+  {
+    "id": "item_163",
+    "name": "Burgundy Denim Jacket (V163)",
+    "description": "A stylish burgundy denim jacket perfect for interview occasions.",
+    "price": 4129,
+    "priceRange": "above-4000",
+    "gender": "unisex",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "all",
+      "tall",
+      "plus-size",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ec92a6/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_164",
+    "name": "Burgundy Chunky Knit Sweater (V164)",
+    "description": "A stylish burgundy chunky knit sweater perfect for date-night occasions.",
+    "price": 838,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "beach",
+      "casual"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/206e97/ffffff?text=Top%5CnBurgundy",
+    "category": "Top"
+  },
+  {
+    "id": "item_165",
+    "name": "Black Polo T-Shirt (V165)",
+    "description": "A stylish black polo t-shirt perfect for wedding occasions.",
+    "price": 538,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "wedding",
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "petite",
+      "curvy",
+      "tall"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/095349/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_166",
+    "name": "Burgundy Classic Blue Jeans (V166)",
+    "description": "A stylish burgundy classic blue jeans perfect for workout occasions.",
+    "price": 2787,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout",
+      "party"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "all",
+      "slim",
+      "tall"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/48081a/ffffff?text=Jeans%5CnBurgundy",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_167",
+    "name": "Grey Tailored Trousers (V167)",
+    "description": "A stylish grey tailored trousers perfect for workout occasions.",
+    "price": 3169,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "plus-size",
+      "average",
+      "all"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/f1ab6e/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_168",
+    "name": "Burgundy Pleated Skirt (V168)",
+    "description": "A stylish burgundy pleated skirt perfect for interview occasions.",
+    "price": 692,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "casual",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "average",
+      "plus-size"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/337549/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_169",
+    "name": "Navy Workout Leggings (V169)",
+    "description": "A stylish navy workout leggings perfect for date-night occasions.",
+    "price": 742,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "workout"
+    ],
+    "bodyTypes": [
+      "average"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a80293/ffffff?text=Bottom%5CnNavy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_170",
+    "name": "Burgundy Cargo Shorts (V170)",
+    "description": "A stylish burgundy cargo shorts perfect for workout occasions.",
+    "price": 6312,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "beach"
+    ],
+    "bodyTypes": [
+      "all",
+      "slim"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/22423d/ffffff?text=Bottom%5CnBurgundy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_171",
+    "name": "Beige Vintage Baseball Cap (V171)",
+    "description": "A stylish beige vintage baseball cap perfect for casual occasions.",
+    "price": 448,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "interview"
+    ],
+    "bodyTypes": [
+      "plus-size",
+      "slim",
+      "average"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/77d6f4/ffffff?text=Cap%5CnBeige",
+    "category": "Cap"
+  },
+  {
+    "id": "item_172",
+    "name": "White Classic Aviator Sunglasses (V172)",
+    "description": "A stylish white classic aviator sunglasses perfect for date-night occasions.",
+    "price": 2289,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "date-night",
+      "workout",
+      "party"
+    ],
+    "bodyTypes": [
+      "average",
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ba94fc/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_173",
+    "name": "Burgundy Minimalist Leather Watch (V173)",
+    "description": "A stylish burgundy minimalist leather watch perfect for casual occasions.",
+    "price": 6922,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "athletic",
+      "tall",
+      "average",
+      "petite"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/ee2a7a/ffffff?text=Accessory%5CnBurgundy",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_174",
+    "name": "Beige Silver Pendant Necklace (V174)",
+    "description": "A stylish beige silver pendant necklace perfect for interview occasions.",
+    "price": 2365,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/76dd01/ffffff?text=Accessory%5CnBeige",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_175",
+    "name": "Grey Canvas Tote Bag (V175)",
+    "description": "A stylish grey canvas tote bag perfect for casual occasions.",
+    "price": 3876,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "athletic",
+      "all"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/225500/ffffff?text=Accessory%5CnGrey",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_176",
+    "name": "Neon Classic Two-Piece Suit (V176)",
+    "description": "A stylish neon classic two-piece suit perfect for interview occasions.",
+    "price": 855,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "interview",
+      "office"
+    ],
+    "bodyTypes": [
+      "all",
+      "athletic",
+      "average",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/2188f0/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_177",
+    "name": "Navy Summer Floral Dress (V177)",
+    "description": "A stylish navy summer floral dress perfect for date-night occasions.",
+    "price": 2088,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "date-night",
+      "casual",
+      "party"
+    ],
+    "bodyTypes": [
+      "all",
+      "athletic",
+      "average",
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/5ddcd6/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_178",
+    "name": "Grey Streetwear Cargo Set (V178)",
+    "description": "A stylish grey streetwear cargo set perfect for workout occasions.",
+    "price": 3446,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/4e5d51/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_179",
+    "name": "Navy Evening Gown (V179)",
+    "description": "A stylish navy evening gown perfect for office occasions.",
+    "price": 323,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "office",
+      "party"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "slim",
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b0fb9d/ffffff?text=Outfit%5CnNavy",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_180",
+    "name": "Grey Athleisure Matching Set (V180)",
+    "description": "A stylish grey athleisure matching set perfect for office occasions.",
+    "price": 2576,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "office",
+      "party"
+    ],
+    "bodyTypes": [
+      "average",
+      "all",
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a9ad75/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_181",
+    "name": "Neon Tuxedo (V181)",
+    "description": "A stylish neon tuxedo perfect for date-night occasions.",
+    "price": 425,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "slim",
+      "all",
+      "tall",
+      "curvy"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/006385/ffffff?text=Outfit%5CnNeon",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_182",
+    "name": "Olive Essential White Tee (V182)",
+    "description": "A stylish olive essential white tee perfect for wedding occasions.",
+    "price": 831,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "party"
+    ],
+    "bodyTypes": [
+      "tall",
+      "petite",
+      "all"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/05dec4/ffffff?text=Top%5CnOlive",
+    "category": "Top"
+  },
+  {
+    "id": "item_183",
+    "name": "Navy Graphic Print Hoodie (V183)",
+    "description": "A stylish navy graphic print hoodie perfect for interview occasions.",
+    "price": 3038,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "interview",
+      "office"
+    ],
+    "bodyTypes": [
+      "slim",
+      "tall",
+      "athletic"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/6ec6ea/ffffff?text=Top%5CnNavy",
+    "category": "Top"
+  },
+  {
+    "id": "item_184",
+    "name": "Black Silk Blouse (V184)",
+    "description": "A stylish black silk blouse perfect for party occasions.",
+    "price": 9282,
+    "priceRange": "above-4000",
+    "gender": "female",
+    "occasions": [
+      "party",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "average",
+      "athletic",
+      "tall",
+      "petite"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/efe553/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_185",
+    "name": "Black Denim Jacket (V185)",
+    "description": "A stylish black denim jacket perfect for party occasions.",
+    "price": 3329,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "party",
+      "wedding"
+    ],
+    "bodyTypes": [
+      "slim"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/43a44b/ffffff?text=Top%5CnBlack",
+    "category": "Top"
+  },
+  {
+    "id": "item_186",
+    "name": "Olive Chunky Knit Sweater (V186)",
+    "description": "A stylish olive chunky knit sweater perfect for interview occasions.",
+    "price": 655,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "workout"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy",
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c57684/ffffff?text=Top%5CnOlive",
+    "category": "Top"
+  },
+  {
+    "id": "item_187",
+    "name": "White Polo T-Shirt (V187)",
+    "description": "A stylish white polo t-shirt perfect for office occasions.",
+    "price": 7903,
+    "priceRange": "above-4000",
+    "gender": "male",
+    "occasions": [
+      "office",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Top"
+    ],
+    "imageUrl": "https://placehold.co/400x500/1fe8a6/ffffff?text=Top%5CnWhite",
+    "category": "Top"
+  },
+  {
+    "id": "item_188",
+    "name": "White Classic Blue Jeans (V188)",
+    "description": "A stylish white classic blue jeans perfect for casual occasions.",
+    "price": 377,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual",
+      "interview"
+    ],
+    "bodyTypes": [
+      "tall",
+      "plus-size",
+      "slim"
+    ],
+    "pieces": [
+      "Jeans"
+    ],
+    "imageUrl": "https://placehold.co/400x500/75481e/ffffff?text=Jeans%5CnWhite",
+    "category": "Jeans"
+  },
+  {
+    "id": "item_189",
+    "name": "Black Tailored Trousers (V189)",
+    "description": "A stylish black tailored trousers perfect for wedding occasions.",
+    "price": 3042,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "wedding",
+      "party",
+      "workout"
+    ],
+    "bodyTypes": [
+      "slim",
+      "tall",
+      "petite",
+      "average"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/511d5f/ffffff?text=Bottom%5CnBlack",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_190",
+    "name": "Black Pleated Skirt (V190)",
+    "description": "A stylish black pleated skirt perfect for beach occasions.",
+    "price": 936,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "beach",
+      "interview"
+    ],
+    "bodyTypes": [
+      "athletic"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/662dbe/ffffff?text=Bottom%5CnBlack",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_191",
+    "name": "Navy Workout Leggings (V191)",
+    "description": "A stylish navy workout leggings perfect for workout occasions.",
+    "price": 1353,
+    "priceRange": "2000-4000",
+    "gender": "female",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "petite",
+      "average",
+      "plus-size"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d2d040/ffffff?text=Bottom%5CnNavy",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_192",
+    "name": "Grey Cargo Shorts (V192)",
+    "description": "A stylish grey cargo shorts perfect for date-night occasions.",
+    "price": 892,
+    "priceRange": "500-1000",
+    "gender": "male",
+    "occasions": [
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite",
+      "curvy"
+    ],
+    "pieces": [
+      "Bottom"
+    ],
+    "imageUrl": "https://placehold.co/400x500/59f02b/ffffff?text=Bottom%5CnGrey",
+    "category": "Bottom"
+  },
+  {
+    "id": "item_193",
+    "name": "Neon Vintage Baseball Cap (V193)",
+    "description": "A stylish neon vintage baseball cap perfect for wedding occasions.",
+    "price": 628,
+    "priceRange": "500-1000",
+    "gender": "unisex",
+    "occasions": [
+      "wedding",
+      "date-night"
+    ],
+    "bodyTypes": [
+      "petite",
+      "athletic",
+      "curvy"
+    ],
+    "pieces": [
+      "Cap"
+    ],
+    "imageUrl": "https://placehold.co/400x500/8502a6/ffffff?text=Cap%5CnNeon",
+    "category": "Cap"
+  },
+  {
+    "id": "item_194",
+    "name": "White Classic Aviator Sunglasses (V194)",
+    "description": "A stylish white classic aviator sunglasses perfect for casual occasions.",
+    "price": 312,
+    "priceRange": "under-500",
+    "gender": "unisex",
+    "occasions": [
+      "casual"
+    ],
+    "bodyTypes": [
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/3a7582/ffffff?text=Accessory%5CnWhite",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_195",
+    "name": "Beige Minimalist Leather Watch (V195)",
+    "description": "A stylish beige minimalist leather watch perfect for workout occasions.",
+    "price": 471,
+    "priceRange": "under-500",
+    "gender": "male",
+    "occasions": [
+      "workout",
+      "office",
+      "beach"
+    ],
+    "bodyTypes": [
+      "slim",
+      "athletic",
+      "plus-size",
+      "curvy"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/c0cf93/ffffff?text=Accessory%5CnBeige",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_196",
+    "name": "Grey Silver Pendant Necklace (V196)",
+    "description": "A stylish grey silver pendant necklace perfect for office occasions.",
+    "price": 400,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "office",
+      "date-night",
+      "beach"
+    ],
+    "bodyTypes": [
+      "curvy",
+      "all",
+      "petite",
+      "tall"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/719ef0/ffffff?text=Accessory%5CnGrey",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_197",
+    "name": "Grey Canvas Tote Bag (V197)",
+    "description": "A stylish grey canvas tote bag perfect for interview occasions.",
+    "price": 939,
+    "priceRange": "500-1000",
+    "gender": "female",
+    "occasions": [
+      "interview",
+      "workout"
+    ],
+    "bodyTypes": [
+      "all",
+      "tall",
+      "plus-size"
+    ],
+    "pieces": [
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/a23586/ffffff?text=Accessory%5CnGrey",
+    "category": "Accessory"
+  },
+  {
+    "id": "item_198",
+    "name": "Grey Classic Two-Piece Suit (V198)",
+    "description": "A stylish grey classic two-piece suit perfect for interview occasions.",
+    "price": 3502,
+    "priceRange": "2000-4000",
+    "gender": "male",
+    "occasions": [
+      "interview"
+    ],
+    "bodyTypes": [
+      "average",
+      "curvy",
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes",
+      "Accessory"
+    ],
+    "imageUrl": "https://placehold.co/400x500/b86cfb/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_199",
+    "name": "Grey Summer Floral Dress (V199)",
+    "description": "A stylish grey summer floral dress perfect for party occasions.",
+    "price": 474,
+    "priceRange": "under-500",
+    "gender": "female",
+    "occasions": [
+      "party",
+      "interview"
+    ],
+    "bodyTypes": [
+      "all"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/469e9d/ffffff?text=Outfit%5CnGrey",
+    "category": "Outfit"
+  },
+  {
+    "id": "item_200",
+    "name": "Olive Streetwear Cargo Set (V200)",
+    "description": "A stylish olive streetwear cargo set perfect for workout occasions.",
+    "price": 2282,
+    "priceRange": "2000-4000",
+    "gender": "unisex",
+    "occasions": [
+      "workout"
+    ],
+    "bodyTypes": [
+      "all",
+      "curvy",
+      "petite"
+    ],
+    "pieces": [
+      "Top",
+      "Bottom",
+      "Shoes"
+    ],
+    "imageUrl": "https://placehold.co/400x500/d2a81b/ffffff?text=Outfit%5CnOlive",
+    "category": "Outfit"
+  }
+]
